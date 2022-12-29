@@ -1,5 +1,3 @@
-#　9.streamlitの基本的な使い方
-
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -79,5 +77,4 @@ from PIL import Image
 st.write('Display Image')
 img = Image.open('hinano.webp')
 st.image(img, caption='Hinano chan', use_column_width=True)
-
 
